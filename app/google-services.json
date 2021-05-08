@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920946832581",
+    "project_id": "myfamily-35a7c",
+    "storage_bucket": "myfamily-35a7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920946832581:android:12b0fe6c9223c03f3f2cac",
+        "android_client_info": {
+          "package_name": "com.emna.myfamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920946832581-1ouncqmvb0os1tjrmh8he3hcvrrv6i21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfUmkRaSo83-DuGL8RTCXWI4aD8955Epc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920946832581-1ouncqmvb0os1tjrmh8he3hcvrrv6i21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
