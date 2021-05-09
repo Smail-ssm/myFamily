@@ -92,6 +92,37 @@ public class Membersactivity extends AppCompatActivity {
                 addmemeber.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        if (name.getEditableText().toString().isEmpty()) {
+
+                            name.setError("Enter name...");
+                            name.requestFocus();
+                            return;
+                        }  if (lastname.getEditableText().toString().isEmpty()) {
+
+                            lastname.setError("Enter lastname...");
+                            lastname.requestFocus();
+                            return;
+                        }  if (age.getEditableText().toString().isEmpty()) {
+
+                            age.setError("Enter age...");
+                            age.requestFocus();
+                            return;
+                        }  if (relation.getEditableText().toString().isEmpty()) {
+
+                            relation.setError("Enter relation...");
+                            relation.requestFocus();
+                            return;
+                        }  if (email.getEditableText().toString().isEmpty()) {
+
+                            email.setError("Enter email...");
+                            email.requestFocus();
+                            return;
+                        }  if (phone.getEditableText().toString().isEmpty()) {
+
+                            phone.setError("Enter phone...");
+                            phone.requestFocus();
+                            return;
+                        }
                         member = new member();
                         member.setName(name.getEditableText().toString());
                         member.setLastname(lastname.getEditableText().toString());
